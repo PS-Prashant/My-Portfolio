@@ -1,0 +1,92 @@
+@import 'utilities.css';
+
+
+:root {
+	--primary: #3dcfd3;
+	--dark: #161616;
+	--pure: #ffffff;
+	--ternary: #898989;
+	--light: #f2f2f2;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* body {
+	font-family: 'Poppins', sans-serif;
+} */
+
+.branding {
+	color: var(--pure)
+}
+
+header {
+	background-color: var(--dark);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 85%, 0 100%);
+	/* height: 800px; */
+}
+
+.container {
+	max-width: 1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header nav .left a {
+	color: var(--pure);
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 2rem;
+	transition: all .3s ease;
+}
+
+header nav .left a:hover {
+	color: var(--primary);
+}
+
+header nav .branding {
+	margin-right: 3rem;
+}
+
+header nav {
+	padding: 2rem 0;
+}
+
+/* header .layout {
+	background-color: aquamarine;
+}
+header .layout .left {
+	background-color:bisque;
+} */
+
+/*  Layout CSS */
+header .layout .left {
+	height: 50rem;
+}
+header .layout .left img{
+	height: 38rem;
+	/* background-color: blue; */
+}
+header .layout h6 {
+	color: var(--primary);
+	font-size: 1.6rem;
+	margin-bottom: 0.5rem;
+}
+
+header .layout h1 {
+	color: var(--pure);
+	font-weight: 100;
+	margin-bottom: 1rem;
+	line-height: 1.2;
+}
+header .layout span {
+	color: var(--primary);
+}
+header .layout p {
+	color: var(--pure);
+	line-height: 2.1;
+	margin-bottom: 1rem;
+}
